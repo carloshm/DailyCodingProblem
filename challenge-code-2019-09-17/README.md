@@ -14,7 +14,6 @@ This problem was asked by Uber.
     int[] result = new int[5] {1, 1, 1, 1, 1};
     int denominator = data.Aggregate((x, y) => (x*y));
 
-    Console.ForegroundColor = ConsoleColor.White;
     for (int loop = 0; loop < data.Length; loop++){
         resultDiv[loop] = denominator / data[loop];
     }
