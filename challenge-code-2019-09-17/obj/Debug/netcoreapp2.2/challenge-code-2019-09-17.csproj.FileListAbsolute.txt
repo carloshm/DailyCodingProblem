@@ -1,0 +1,11 @@
+/home/carloshm/DailyCodingProblem/challenge-code-2019-09-17/bin/Debug/netcoreapp2.2/challenge-code-2019-09-17.deps.json
+/home/carloshm/DailyCodingProblem/challenge-code-2019-09-17/bin/Debug/netcoreapp2.2/challenge-code-2019-09-17.runtimeconfig.json
+/home/carloshm/DailyCodingProblem/challenge-code-2019-09-17/bin/Debug/netcoreapp2.2/challenge-code-2019-09-17.runtimeconfig.dev.json
+/home/carloshm/DailyCodingProblem/challenge-code-2019-09-17/bin/Debug/netcoreapp2.2/challenge-code-2019-09-17.dll
+/home/carloshm/DailyCodingProblem/challenge-code-2019-09-17/bin/Debug/netcoreapp2.2/challenge-code-2019-09-17.pdb
+/home/carloshm/DailyCodingProblem/challenge-code-2019-09-17/obj/Debug/netcoreapp2.2/challenge-code-2019-09-17.csprojAssemblyReference.cache
+/home/carloshm/DailyCodingProblem/challenge-code-2019-09-17/obj/Debug/netcoreapp2.2/challenge-code-2019-09-17.csproj.CoreCompileInputs.cache
+/home/carloshm/DailyCodingProblem/challenge-code-2019-09-17/obj/Debug/netcoreapp2.2/challenge-code-2019-09-17.AssemblyInfoInputs.cache
+/home/carloshm/DailyCodingProblem/challenge-code-2019-09-17/obj/Debug/netcoreapp2.2/challenge-code-2019-09-17.AssemblyInfo.cs
+/home/carloshm/DailyCodingProblem/challenge-code-2019-09-17/obj/Debug/netcoreapp2.2/challenge-code-2019-09-17.dll
+/home/carloshm/DailyCodingProblem/challenge-code-2019-09-17/obj/Debug/netcoreapp2.2/challenge-code-2019-09-17.pdb
