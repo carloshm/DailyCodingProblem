@@ -19,9 +19,6 @@ This problem was asked by Uber.
         resultDiv[loop] = denominator / data[loop];
     }
     Console.WriteLine(string.Join(",", resultDiv));
-    Console.ForegroundColor = ConsoleColor.Yellow;
-    Console.WriteLine("Follow-up: what if you can't use division?");
-    Console.ForegroundColor = ConsoleColor.White;
 
     for (int i = 0; i < result.Length; i++){
         for (int j = 0; j < data.Length; j++){
@@ -30,3 +27,4 @@ This problem was asked by Uber.
             }
         }
     }
+    Console.WriteLine(string.Join(",", result));
