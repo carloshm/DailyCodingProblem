@@ -16,11 +16,27 @@ namespace challenge_code_2019_09_17
             int[] data = new int[5] {1, 2, 3, 4, 5};
             int[] resultDiv = new int[5];
             int[] result = new int[5] {1, 1, 1, 1, 1};
-            int denominator = data.Aggregate((x, y) => (x*y));
+            int denominator = data.Aggregate((x, y) => {
+                if (x != 0 && y!= 0){
+                    return (x*y);
+                    }
+                else
+                    {
+                    if (x == 0){
+                        return (1*y);
+                        }
+                    else
+                        {
+                        return (x*1);
+                        }
+                    }
+                });
 
             Console.ForegroundColor = ConsoleColor.White;
             for (int loop = 0; loop < data.Length; loop++){
-                resultDiv[loop] = denominator / data[loop];
+                if(data[loop] != 0) {
+                    resultDiv[loop] = denominator / data[loop];
+                }
             }
             Console.WriteLine(string.Join(",", resultDiv));
             Console.ForegroundColor = ConsoleColor.Yellow;
@@ -30,7 +46,14 @@ namespace challenge_code_2019_09_17
             for (int i = 0; i < result.Length; i++){
                 for (int j = 0; j < data.Length; j++){
                     if(i != j){
-                        result[i] = result[i] * data[j];
+                        if (data[j] != 0)
+                        {
+                            result[i] = result[i] * data[j];
+                        }
+                        else
+                        {
+                        result[j] = 0;
+                        }
                     }
                 }
             }
